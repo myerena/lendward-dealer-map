@@ -8,7 +8,7 @@ import streamlit as st
 from streamlit_folium import st_folium
 
 from geography import DATA_PATH, load_locations, search_places
-from map_view import build_map
+from map_view import build_map, search_overlay
 
 ROOT = Path(__file__).parent
 st.set_page_config(page_title="Lendward | Dealer map", page_icon=":world_map:", layout="wide")
@@ -32,7 +32,7 @@ def read_snapshot(modified_ns):
     return json.loads((ROOT / "data" / "map_data.json").read_text(encoding="utf-8"))
 
 
-@st.cache_data
+@st.cache_resource
 def read_geography(modified_ns):
     return load_locations()
 
@@ -74,6 +74,9 @@ with st.sidebar:
         st.session_state["place_results"] = []
         st.session_state["last_query"] = ""
         st.rerun()
+    radius = st.selectbox("Distance rings", [0, 10, 25, 50], index=2,
+                          format_func=lambda miles: f"Up to {miles} miles" if miles else "Off")
+    st.caption("Rings show straight-line miles from the searched city or ZIP center, not driving distance.")
     st.divider()
     dealer_query = st.text_input("Find a dealer", placeholder="Dealer name")
     st.caption("Area search moves the map. Dealer search filters the pins.")
@@ -98,7 +101,10 @@ if place:
     st.markdown(f"**Viewing {place['label']}** - all dealer pins remain available as you pan or zoom.")
 if not shown:
     st.info("No dealer names match this search. Clear the dealer search to restore all pins.")
-st_folium(build_map(shown, place), height=565, use_container_width=True,
+center = (place["latitude"], place["longitude"]) if place else (38.8, -97.5)
+zoom = ({0: 10, 10: 10, 25: 9, 50: 8}[radius] if place else 4)
+st_folium(build_map(shown), height=565, use_container_width=True,
+          center=center, zoom=zoom, feature_group_to_add=search_overlay(place, radius),
           returned_objects=[], key="dealer_map")
 if missing := len(shown) - len(mapped):
     st.warning(f"{missing} entries cannot be placed by ZIP. They remain in the dealer list below.")

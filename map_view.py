@@ -1,6 +1,7 @@
 """Folium presentation: one marker per entry, expandable shared-ZIP clusters."""
 
 import html
+import math
 
 import folium
 from branca.element import MacroElement, Template
@@ -40,10 +41,60 @@ def popup_html(dealer):
         {review}{key}<small style="color:#667085">Approximate ZIP location</small></div>"""
 
 
-def build_map(dealers, place=None):
-    center = [place["latitude"], place["longitude"]] if place else [38.8, -97.5]
+class DealerMarkers(MacroElement):
+    """Render all markers in one loop instead of hundreds of template trees."""
+
+    _template = Template("""
+    {% macro script(this, kwargs) %}
+    {{ this.markers | tojson }}.forEach(function(dealer) {
+        const icon = L.divIcon({
+            html: '<div style="width:23px;height:23px;background:' + dealer.color + ';border:3px solid white;border-radius:50% 50% 50% 0;transform:rotate(-45deg);box-shadow:0 2px 5px #0005"></div>',
+            iconSize: [26, 30], iconAnchor: [13, 30], className: 'dealer-pin'
+        });
+        L.marker(dealer.location, {icon: icon, title: dealer.name, alt: dealer.name})
+            .bindPopup(dealer.popup, {maxWidth: 340})
+            .bindTooltip(dealer.tooltip)
+            .addTo({{ this._parent.get_name() }});
+    });
+    {% endmacro %}
+    """)
+
+    def __init__(self, dealers):
+        super().__init__()
+        self.markers = [
+            {"location": [d["latitude"], d["longitude"]], "name": d["dealer_name"],
+             "color": "#b57516" if d["review_note"] else "#16798b",
+             "popup": popup_html(d), "tooltip": html.escape(d["dealer_name"])}
+            for d in dealers if d["latitude"] is not None
+        ]
+
+
+def search_overlay(place, radius):
+    """A replaceable search layer; dealer markers remain on the base map."""
+    overlay = folium.FeatureGroup(name="Searched area")
+    if not place:
+        return overlay
+    center = [place["latitude"], place["longitude"]]
+    for miles, color in [(50, "#7457a6"), (25, "#16798b"), (10, "#153a52")]:
+        if miles <= radius:
+            folium.Circle(center, radius=miles * 1609.344, color=color, weight=2,
+                          fill=False, tooltip=f"{miles} miles from searched location",
+                          ).add_to(overlay)
+            folium.Marker(
+                [center[0] + math.degrees(miles * 1609.344 / 6371000), center[1]],
+                icon=folium.DivIcon(html=f'<div style="background:white;border:1px solid {color};color:{color};border-radius:4px;text-align:center;font:600 12px/22px system-ui">{miles} mi</div>',
+                                    icon_size=(48, 24), icon_anchor=(24, 12)),
+                interactive=False,
+            ).add_to(overlay)
+    folium.CircleMarker(center, radius=5, color="#153a52", weight=2,
+                        fill=True, fill_color="white", fill_opacity=1,
+                        tooltip="Searched location").add_to(overlay)
+    return overlay
+
+
+def build_map(dealers):
     map_object = folium.Map(
-        location=center, zoom_start=10 if place else 4, tiles=None,
+        location=[38.8, -97.5], zoom_start=4, tiles=None,
         control_scale=True, prefer_canvas=True,
     )
     folium.TileLayer(
@@ -59,22 +110,5 @@ def build_map(dealers, place=None):
         }""",
     ).add_to(map_object)
     ExpandSharedZip().add_to(clusters)
-    for dealer in dealers:
-        if dealer["latitude"] is None:
-            continue
-        color = "#b57516" if dealer["review_note"] else "#16798b"
-        icon = folium.DivIcon(
-            html=f'<div style="width:23px;height:23px;background:{color};border:3px solid white;border-radius:50% 50% 50% 0;transform:rotate(-45deg);box-shadow:0 2px 5px #0005"></div>',
-            icon_size=(26, 30), icon_anchor=(13, 30),
-        )
-        folium.Marker(
-            [dealer["latitude"], dealer["longitude"]], icon=icon,
-            title=dealer["dealer_name"], alt=dealer["dealer_name"],
-            popup=folium.Popup(popup_html(dealer), max_width=340),
-            tooltip=html.escape(dealer["dealer_name"]).replace("`", "&#96;").replace("$", "&#36;"),
-        ).add_to(clusters)
-    if place:
-        folium.CircleMarker(center, radius=5, color="#153a52", weight=2,
-                            fill=True, fill_color="white", fill_opacity=1,
-                            tooltip="Searched location").add_to(map_object)
+    DealerMarkers(dealers).add_to(clusters)
     return map_object
