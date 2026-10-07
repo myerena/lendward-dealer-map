@@ -21,7 +21,8 @@ On Streamlit Community Cloud, select this repository, branch `main`, file
 The operator prepares a replacement `data/map_data.json` from each new complete
 campaign export. This repository contains only the cleaned map snapshot. Raw
 campaign exports, pricing, performance and employee assignments are excluded.
-Some brand/name variants remain separate pending operator review.
+Approved brand/name variants at the same dealer location share one map entry.
+Unresolved identity or location issues remain flagged for operator review.
 
 ## Attribution
 

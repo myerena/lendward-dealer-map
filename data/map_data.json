@@ -4,9 +4,9 @@
     "first_drop_date": "2026-04-01",
     "last_drop_date": "2026-10-01",
     "campaign_count": 1212,
-    "store_count": 550,
-    "mapped_count": 550,
-    "review_count": 7
+    "store_count": 546,
+    "mapped_count": 546,
+    "review_count": 0
   },
   "dealers": [
     {
@@ -2494,16 +2494,16 @@
       "review_note": ""
     },
     {
-      "dealer_name": "HUNTER",
+      "dealer_name": "Hunter Dodge Chrysler Jeep Ram",
       "dealer_key": "hunter-dodge-chrysler-jeep-ram",
       "state": "CA",
       "zip": "93534",
       "postal_city": "Lancaster",
       "latitude": 34.6909,
       "longitude": -118.1491,
-      "campaign_count": 5,
+      "campaign_count": 24,
       "latest_drop_date": "2026-09-21",
-      "review_note": "Multiple names or locations share this dealer key; kept separate pending review"
+      "review_note": ""
     },
     {
       "dealer_name": "Hutchinson Toyota of Albany",
@@ -2564,18 +2564,6 @@
       "campaign_count": 1,
       "latest_drop_date": "2026-06-03",
       "review_note": ""
-    },
-    {
-      "dealer_name": "Hyundai of Quincy",
-      "dealer_key": "kunes-honda-hyundai-of-quincy",
-      "state": "IL",
-      "zip": "62301",
-      "postal_city": "Quincy",
-      "latitude": 39.9307,
-      "longitude": -91.3763,
-      "campaign_count": 3,
-      "latest_drop_date": "2026-07-09",
-      "review_note": "Multiple names or locations share this dealer key; kept separate pending review"
     },
     {
       "dealer_name": "Island Chrysler Dodge Jeep Ram",
@@ -3118,16 +3106,16 @@
       "review_note": ""
     },
     {
-      "dealer_name": "Kunes Honda",
+      "dealer_name": "Kunes Honda/Hyundai of Quincy",
       "dealer_key": "kunes-honda-hyundai-of-quincy",
       "state": "IL",
       "zip": "62301",
       "postal_city": "Quincy",
       "latitude": 39.9307,
       "longitude": -91.3763,
-      "campaign_count": 1,
-      "latest_drop_date": "2026-05-12",
-      "review_note": "Multiple names or locations share this dealer key; kept separate pending review"
+      "campaign_count": 4,
+      "latest_drop_date": "2026-07-09",
+      "review_note": ""
     },
     {
       "dealer_name": "Kunes Nissan of Davenport",
@@ -4882,18 +4870,6 @@
       "review_note": ""
     },
     {
-      "dealer_name": "ram",
-      "dealer_key": "hunter-dodge-chrysler-jeep-ram",
-      "state": "CA",
-      "zip": "93534",
-      "postal_city": "Lancaster",
-      "latitude": 34.6909,
-      "longitude": -118.1491,
-      "campaign_count": 13,
-      "latest_drop_date": "2026-08-21",
-      "review_note": "Multiple names or locations share this dealer key; kept separate pending review"
-    },
-    {
       "dealer_name": "Ram Country Chrysler Dodge Jeep Ram of Mineral Wells",
       "dealer_key": "ram-country-chrysler-dodge-jeep-ram-of-mineral-wells",
       "state": "TX",
@@ -4942,16 +4918,16 @@
       "review_note": ""
     },
     {
-      "dealer_name": "Ray Skillman Ford",
+      "dealer_name": "Ray Skillman Ford/Hyundai/Genesis",
       "dealer_key": "ray-skillman-ford-hyundai-genesis",
       "state": "IN",
       "zip": "46143",
       "postal_city": "Greenwood",
       "latitude": 39.596,
       "longitude": -86.1309,
-      "campaign_count": 3,
+      "campaign_count": 4,
       "latest_drop_date": "2026-09-30",
-      "review_note": "Multiple names or locations share this dealer key; kept separate pending review"
+      "review_note": ""
     },
     {
       "dealer_name": "Ray Skillman Hoosier Ford",
@@ -5000,18 +4976,6 @@
       "campaign_count": 2,
       "latest_drop_date": "2026-08-28",
       "review_note": ""
-    },
-    {
-      "dealer_name": "Ray Skillman SS HYUNDAI",
-      "dealer_key": "ray-skillman-ford-hyundai-genesis",
-      "state": "IN",
-      "zip": "46143",
-      "postal_city": "Greenwood",
-      "latitude": 39.596,
-      "longitude": -86.1309,
-      "campaign_count": 1,
-      "latest_drop_date": "2026-09-30",
-      "review_note": "Multiple names or locations share this dealer key; kept separate pending review"
     },
     {
       "dealer_name": "Ray Skillman Westside Kia",
@@ -6548,18 +6512,6 @@
       "campaign_count": 2,
       "latest_drop_date": "2026-09-21",
       "review_note": ""
-    },
-    {
-      "dealer_name": "west",
-      "dealer_key": "hunter-dodge-chrysler-jeep-ram",
-      "state": "CA",
-      "zip": "93534",
-      "postal_city": "Lancaster",
-      "latitude": 34.6909,
-      "longitude": -118.1491,
-      "campaign_count": 6,
-      "latest_drop_date": "2026-05-07",
-      "review_note": "Multiple names or locations share this dealer key; kept separate pending review"
     },
     {
       "dealer_name": "Winn Kia & Volkswagen of Fremont",
