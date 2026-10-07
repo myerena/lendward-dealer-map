@@ -11,7 +11,7 @@ from geography import DATA_PATH, load_locations, search_places
 from map_view import build_map, search_overlay
 
 ROOT = Path(__file__).parent
-st.set_page_config(page_title="Lendward | Dealer map", page_icon=":world_map:", layout="wide")
+st.set_page_config(page_title="Dealer map", page_icon=":world_map:", layout="wide")
 
 st.markdown("""<style>
     .block-container {padding-top:3.5rem;padding-bottom:1.5rem;max-width:1600px}
