@@ -6,6 +6,7 @@ groups to expand overlapping pins. Dealer locations are approximate ZIP
 locations and do not represent mailing territories or exclusive sales areas.
 Optional 10, 25 and 50-mile rings show straight-line distance from the searched
 city or ZIP center. Area searches update the view without rebuilding markers.
+Rings are visual only, with no hover text or interception of map interactions.
 
 Live app: https://dealer-map.streamlit.app/
 

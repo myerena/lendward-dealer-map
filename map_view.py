@@ -78,8 +78,7 @@ def search_overlay(place, radius):
     for miles, color in [(50, "#7457a6"), (25, "#16798b"), (10, "#153a52")]:
         if miles <= radius:
             folium.Circle(center, radius=miles * 1609.344, color=color, weight=2,
-                          fill=False, tooltip=f"{miles} miles from searched location",
-                          ).add_to(overlay)
+                          fill=False).add_to(overlay)
             folium.Marker(
                 [center[0] + math.degrees(miles * 1609.344 / 6371000), center[1]],
                 icon=folium.DivIcon(html=f'<div style="background:white;border:1px solid {color};color:{color};border-radius:4px;text-align:center;font:600 12px/22px system-ui">{miles} mi</div>',
@@ -87,8 +86,10 @@ def search_overlay(place, radius):
                 interactive=False,
             ).add_to(overlay)
     folium.CircleMarker(center, radius=5, color="#153a52", weight=2,
-                        fill=True, fill_color="white", fill_opacity=1,
-                        tooltip="Searched location").add_to(overlay)
+                        fill=True, fill_color="white", fill_opacity=1).add_to(overlay)
+    # Folium's path_options drops interactive/pane kwargs, so set them explicitly.
+    for layer in overlay._children.values():
+        layer.options.update(pane="distance-rings", interactive=False, keyboard=False)
     return overlay
 
 
@@ -97,6 +98,7 @@ def build_map(dealers):
         location=[38.8, -97.5], zoom_start=4, tiles=None,
         control_scale=True, prefer_canvas=True,
     )
+    folium.map.CustomPane("distance-rings", z_index=450, pointer_events=False).add_to(map_object)
     folium.TileLayer(
         tiles="https://tile.openstreetmap.org/{z}/{x}/{y}.png",
         attr='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
