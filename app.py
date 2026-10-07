@@ -82,7 +82,7 @@ with st.sidebar:
     st.caption("Area search moves the map. Dealer search filters the pins.")
     st.divider()
     st.markdown("**Reading the map**")
-    st.caption("Click a number to zoom in. Dealers sharing a ZIP spread apart when you click their group.")
+    st.caption("Hover over a number to see its stores. Click to zoom in or spread apart dealers sharing a ZIP.")
     st.caption("Teal pins: dealer entries. Amber pins: names or locations awaiting review.")
     st.caption("Pins use approximate ZIP locations. They do not show mailing territories.")
 

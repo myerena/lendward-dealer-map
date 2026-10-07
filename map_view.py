@@ -8,12 +8,13 @@ from branca.element import MacroElement, Template
 from folium.plugins import MarkerCluster
 
 
-class ExpandSharedZip(MacroElement):
-    """One click fans out markers at the same point, at any zoom level."""
+class ClusterInteractions(MacroElement):
+    """List grouped stores on hover and expand their pins on click."""
 
     _template = Template("""
     {% macro script(this, kwargs) %}
     {{ this._parent.get_name() }}.on('clusterclick', function(event) {
+        event.layer.closeTooltip();
         const markers = event.layer.getAllChildMarkers();
         const first = markers[0].getLatLng();
         if (markers.every(marker => marker.getLatLng().equals(first))) {
@@ -108,9 +109,28 @@ def build_map(dealers):
         show_coverage_on_hover=False, zoom_to_bounds_on_click=False,
         spiderfy_on_max_zoom=True, max_cluster_radius=38,
         icon_create_function="""function(cluster) {
+            // MarkerCluster uses itself as its icon and needs an explicit anchor.
+            cluster.options.tooltipAnchor = [0, 0];
+            const stores = cluster.getAllChildMarkers().slice().sort((a, b) =>
+                a.options.title.localeCompare(b.options.title));
+            const content = document.createElement('div');
+            content.style.cssText = 'width:300px;max-width:65vw;max-height:240px;overflow-y:auto;white-space:normal;font:13px/1.5 system-ui';
+            const heading = document.createElement('strong');
+            heading.textContent = stores.length + ' stores';
+            content.appendChild(heading);
+            const list = document.createElement('ul');
+            list.style.cssText = 'margin:6px 0 0;padding-left:18px';
+            stores.forEach(marker => {
+                const item = document.createElement('li');
+                item.textContent = marker.options.title;
+                list.appendChild(item);
+            });
+            content.appendChild(list);
+            cluster.unbindTooltip();
+            cluster.bindTooltip(content, {direction:'auto', opacity:1, interactive:true});
             return L.divIcon({html: '<div style="background:#153a52;color:white;border:4px solid #c8dce7;border-radius:50%;width:42px;height:42px;display:flex;align-items:center;justify-content:center;font:600 14px system-ui;box-sizing:border-box">' + cluster.getChildCount() + '</div>', className:'dealer-cluster', iconSize:[42,42]});
         }""",
     ).add_to(map_object)
-    ExpandSharedZip().add_to(clusters)
+    ClusterInteractions().add_to(clusters)
     DealerMarkers(dealers).add_to(clusters)
     return map_object
