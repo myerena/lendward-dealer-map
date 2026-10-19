@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "report_as_of": "2026-10-09",
-    "first_drop_date": "2026-04-09",
-    "last_drop_date": "2026-10-09",
-    "campaign_count": 1209,
-    "store_count": 546,
-    "mapped_count": 546,
+    "report_as_of": "2026-10-19",
+    "first_drop_date": "2026-04-20",
+    "last_drop_date": "2026-10-19",
+    "campaign_count": 1204,
+    "store_count": 542,
+    "mapped_count": 542,
     "review_count": 0
   },
   "dealers": [
@@ -53,8 +53,8 @@
       "postal_city": "Brooklyn",
       "latitude": 40.6281,
       "longitude": -73.9467,
-      "campaign_count": 2,
-      "latest_drop_date": "2026-08-10",
+      "campaign_count": 3,
+      "latest_drop_date": "2026-10-10",
       "review_note": ""
     },
     {
@@ -67,18 +67,6 @@
       "longitude": -81.7556,
       "campaign_count": 3,
       "latest_drop_date": "2026-06-15",
-      "review_note": ""
-    },
-    {
-      "dealer_name": "Airpark Dodge Chrysler Jeep Ram",
-      "dealer_key": "airpark-dodge-chrysler-jeep-ram",
-      "state": "AZ",
-      "zip": "85260",
-      "postal_city": "Scottsdale",
-      "latitude": 33.6013,
-      "longitude": -111.8867,
-      "campaign_count": 1,
-      "latest_drop_date": "2026-04-14",
       "review_note": ""
     },
     {
@@ -102,7 +90,7 @@
       "latitude": 34.0914,
       "longitude": -118.1293,
       "campaign_count": 7,
-      "latest_drop_date": "2026-10-02",
+      "latest_drop_date": "2026-10-15",
       "review_note": ""
     },
     {
@@ -209,8 +197,8 @@
       "postal_city": "Kingwood",
       "latitude": 39.4819,
       "longitude": -79.7063,
-      "campaign_count": 2,
-      "latest_drop_date": "2026-07-08",
+      "campaign_count": 3,
+      "latest_drop_date": "2026-10-15",
       "review_note": ""
     },
     {
@@ -281,8 +269,8 @@
       "postal_city": "Niagara Falls",
       "latitude": 43.0908,
       "longitude": -78.9644,
-      "campaign_count": 3,
-      "latest_drop_date": "2026-07-27",
+      "campaign_count": 4,
+      "latest_drop_date": "2026-10-13",
       "review_note": ""
     },
     {
@@ -353,8 +341,8 @@
       "postal_city": "Bellevue",
       "latitude": 47.6174,
       "longitude": -122.1426,
-      "campaign_count": 3,
-      "latest_drop_date": "2026-08-28",
+      "campaign_count": 4,
+      "latest_drop_date": "2026-10-12",
       "review_note": ""
     },
     {
@@ -545,8 +533,8 @@
       "postal_city": "Seattle",
       "latitude": 47.4441,
       "longitude": -122.3249,
-      "campaign_count": 4,
-      "latest_drop_date": "2026-08-28",
+      "campaign_count": 5,
+      "latest_drop_date": "2026-10-12",
       "review_note": ""
     },
     {
@@ -558,7 +546,7 @@
       "latitude": 42.1885,
       "longitude": -122.693,
       "campaign_count": 3,
-      "latest_drop_date": "2026-07-27",
+      "latest_drop_date": "2026-10-15",
       "review_note": ""
     },
     {
@@ -689,7 +677,7 @@
       "postal_city": "Corona",
       "latitude": 33.8419,
       "longitude": -117.6043,
-      "campaign_count": 4,
+      "campaign_count": 3,
       "latest_drop_date": "2026-09-15",
       "review_note": ""
     },
@@ -725,8 +713,8 @@
       "postal_city": "Carson",
       "latitude": 33.823,
       "longitude": -118.2684,
-      "campaign_count": 12,
-      "latest_drop_date": "2026-09-21",
+      "campaign_count": 13,
+      "latest_drop_date": "2026-10-16",
       "review_note": ""
     },
     {
@@ -773,20 +761,8 @@
       "postal_city": "Mchenry",
       "latitude": 42.3311,
       "longitude": -88.2955,
-      "campaign_count": 1,
-      "latest_drop_date": "2026-04-20",
-      "review_note": ""
-    },
-    {
-      "dealer_name": "Castle Rock Chrysler Dodge Jeep Ram",
-      "dealer_key": "castle-rock-chrysler-dodge-jeep-ram",
-      "state": "CO",
-      "zip": "80104",
-      "postal_city": "Castle Rock",
-      "latitude": 39.3722,
-      "longitude": -104.8561,
-      "campaign_count": 1,
-      "latest_drop_date": "2026-04-16",
+      "campaign_count": 2,
+      "latest_drop_date": "2026-10-10",
       "review_note": ""
     },
     {
@@ -857,7 +833,7 @@
       "postal_city": "Wayzata",
       "latitude": 44.9847,
       "longitude": -93.5422,
-      "campaign_count": 3,
+      "campaign_count": 2,
       "latest_drop_date": "2026-09-18",
       "review_note": ""
     },
@@ -989,8 +965,8 @@
       "postal_city": "Arlington",
       "latitude": 32.6555,
       "longitude": -97.1599,
-      "campaign_count": 3,
-      "latest_drop_date": "2026-09-24",
+      "campaign_count": 4,
+      "latest_drop_date": "2026-10-14",
       "review_note": ""
     },
     {
@@ -1001,8 +977,8 @@
       "postal_city": "Dallas",
       "latitude": 32.659,
       "longitude": -96.8765,
-      "campaign_count": 3,
-      "latest_drop_date": "2026-09-17",
+      "campaign_count": 4,
+      "latest_drop_date": "2026-10-14",
       "review_note": ""
     },
     {
@@ -1015,6 +991,18 @@
       "longitude": -96.7452,
       "campaign_count": 2,
       "latest_drop_date": "2026-10-01",
+      "review_note": ""
+    },
+    {
+      "dealer_name": "Clay Cooley Volkswagen of Richardson",
+      "dealer_key": "clay-cooley-volkswagen-of-richardson",
+      "state": "TX",
+      "zip": "75080",
+      "postal_city": "Richardson",
+      "latitude": 32.966,
+      "longitude": -96.7452,
+      "campaign_count": 1,
+      "latest_drop_date": "2026-10-14",
       "review_note": ""
     },
     {
@@ -1037,8 +1025,8 @@
       "postal_city": "Oklahoma City",
       "latitude": 35.4605,
       "longitude": -97.3974,
-      "campaign_count": 3,
-      "latest_drop_date": "2026-08-26",
+      "campaign_count": 4,
+      "latest_drop_date": "2026-10-14",
       "review_note": ""
     },
     {
@@ -1097,7 +1085,7 @@
       "postal_city": "Lithonia",
       "latitude": 33.6823,
       "longitude": -84.161,
-      "campaign_count": 4,
+      "campaign_count": 3,
       "latest_drop_date": "2026-10-07",
       "review_note": ""
     },
@@ -1121,8 +1109,8 @@
       "postal_city": "Danville",
       "latitude": 40.137,
       "longitude": -87.6217,
-      "campaign_count": 1,
-      "latest_drop_date": "2026-08-11",
+      "campaign_count": 2,
+      "latest_drop_date": "2026-10-19",
       "review_note": ""
     },
     {
@@ -1183,6 +1171,18 @@
       "longitude": -92.2303,
       "campaign_count": 1,
       "latest_drop_date": "2026-05-27",
+      "review_note": ""
+    },
+    {
+      "dealer_name": "Crain Volkswagen of Fayetteville",
+      "dealer_key": "crain-volkswagen-of-fayetteville",
+      "state": "AR",
+      "zip": "72704",
+      "postal_city": "Fayetteville",
+      "latitude": 36.0877,
+      "longitude": -94.3093,
+      "campaign_count": 1,
+      "latest_drop_date": "2026-10-19",
       "review_note": ""
     },
     {
@@ -1253,8 +1253,8 @@
       "postal_city": "Daytona Beach",
       "latitude": 29.1419,
       "longitude": -81.1402,
-      "campaign_count": 2,
-      "latest_drop_date": "2026-06-29",
+      "campaign_count": 3,
+      "latest_drop_date": "2026-10-18",
       "review_note": ""
     },
     {
@@ -1373,20 +1373,8 @@
       "postal_city": "Hillsboro",
       "latitude": 45.4984,
       "longitude": -122.957,
-      "campaign_count": 3,
+      "campaign_count": 2,
       "latest_drop_date": "2026-08-01",
-      "review_note": ""
-    },
-    {
-      "dealer_name": "Dick's Hillsboro Hyundai",
-      "dealer_key": "dick-s-hillsboro-hyundai",
-      "state": "OR",
-      "zip": "97123",
-      "postal_city": "Hillsboro",
-      "latitude": 45.4984,
-      "longitude": -122.957,
-      "campaign_count": 1,
-      "latest_drop_date": "2026-04-14",
       "review_note": ""
     },
     {
@@ -1421,7 +1409,7 @@
       "postal_city": "Somerset",
       "latitude": 37.1566,
       "longitude": -84.5248,
-      "campaign_count": 11,
+      "campaign_count": 9,
       "latest_drop_date": "2026-09-28",
       "review_note": ""
     },
@@ -1493,7 +1481,7 @@
       "postal_city": "Cambridge",
       "latitude": 40.027,
       "longitude": -81.582,
-      "campaign_count": 2,
+      "campaign_count": 1,
       "latest_drop_date": "2026-04-22",
       "review_note": ""
     },
@@ -1529,8 +1517,8 @@
       "postal_city": "Elmhurst",
       "latitude": 41.8927,
       "longitude": -87.941,
-      "campaign_count": 2,
-      "latest_drop_date": "2026-09-10",
+      "campaign_count": 3,
+      "latest_drop_date": "2026-10-15",
       "review_note": ""
     },
     {
@@ -1589,7 +1577,7 @@
       "postal_city": "Elgin",
       "latitude": 42.0293,
       "longitude": -88.3747,
-      "campaign_count": 7,
+      "campaign_count": 6,
       "latest_drop_date": "2026-09-30",
       "review_note": ""
     },
@@ -1714,18 +1702,6 @@
       "review_note": ""
     },
     {
-      "dealer_name": "Fletcher Chrysler Dodge Jeep Ram Superstore",
-      "dealer_key": "fletcher-chrysler-dodge-jeep-ram-superstore",
-      "state": "MO",
-      "zip": "64804",
-      "postal_city": "Joplin",
-      "latitude": 37.0465,
-      "longitude": -94.5103,
-      "campaign_count": 1,
-      "latest_drop_date": "2026-04-13",
-      "review_note": ""
-    },
-    {
       "dealer_name": "Fletcher Ford",
       "dealer_key": "frank-fletcher-ford",
       "state": "MO",
@@ -1769,8 +1745,8 @@
       "postal_city": "Boerne",
       "latitude": 29.8931,
       "longitude": -98.6857,
-      "campaign_count": 2,
-      "latest_drop_date": "2026-07-22",
+      "campaign_count": 3,
+      "latest_drop_date": "2026-10-09",
       "review_note": ""
     },
     {
@@ -1889,8 +1865,8 @@
       "postal_city": "Highland",
       "latitude": 41.55,
       "longitude": -87.4569,
-      "campaign_count": 3,
-      "latest_drop_date": "2026-08-26",
+      "campaign_count": 4,
+      "latest_drop_date": "2026-10-12",
       "review_note": ""
     },
     {
@@ -1901,8 +1877,8 @@
       "postal_city": "Gardena",
       "latitude": 33.8925,
       "longitude": -118.2961,
-      "campaign_count": 12,
-      "latest_drop_date": "2026-09-21",
+      "campaign_count": 13,
+      "latest_drop_date": "2026-10-16",
       "review_note": ""
     },
     {
@@ -1949,7 +1925,7 @@
       "postal_city": "Melbourne",
       "latitude": 28.0691,
       "longitude": -80.62,
-      "campaign_count": 3,
+      "campaign_count": 2,
       "latest_drop_date": "2026-08-11",
       "review_note": ""
     },
@@ -2069,7 +2045,7 @@
       "postal_city": "Myrtle Beach",
       "latitude": 33.7377,
       "longitude": -78.9787,
-      "campaign_count": 2,
+      "campaign_count": 1,
       "latest_drop_date": "2026-07-22",
       "review_note": ""
     },
@@ -2153,7 +2129,7 @@
       "postal_city": "Kansas City",
       "latitude": 39.0323,
       "longitude": -94.47,
-      "campaign_count": 2,
+      "campaign_count": 1,
       "latest_drop_date": "2026-06-05",
       "review_note": ""
     },
@@ -2381,7 +2357,7 @@
       "postal_city": "Dorchester",
       "latitude": 42.2973,
       "longitude": -71.0745,
-      "campaign_count": 2,
+      "campaign_count": 1,
       "latest_drop_date": "2026-07-06",
       "review_note": ""
     },
@@ -2501,8 +2477,8 @@
       "postal_city": "Lancaster",
       "latitude": 34.6909,
       "longitude": -118.1491,
-      "campaign_count": 24,
-      "latest_drop_date": "2026-09-21",
+      "campaign_count": 26,
+      "latest_drop_date": "2026-10-16",
       "review_note": ""
     },
     {
@@ -2645,7 +2621,7 @@
       "postal_city": "Florence",
       "latitude": 38.9941,
       "longitude": -84.642,
-      "campaign_count": 9,
+      "campaign_count": 8,
       "latest_drop_date": "2026-10-05",
       "review_note": ""
     },
@@ -2705,7 +2681,7 @@
       "postal_city": "Ozark",
       "latitude": 37.0169,
       "longitude": -93.2022,
-      "campaign_count": 4,
+      "campaign_count": 3,
       "latest_drop_date": "2026-10-08",
       "review_note": ""
     },
@@ -2717,7 +2693,7 @@
       "postal_city": "Ozark",
       "latitude": 37.0169,
       "longitude": -93.2022,
-      "campaign_count": 5,
+      "campaign_count": 4,
       "latest_drop_date": "2026-10-08",
       "review_note": ""
     },
@@ -2729,8 +2705,8 @@
       "postal_city": "Sulphur Springs",
       "latitude": 33.1345,
       "longitude": -95.5922,
-      "campaign_count": 3,
-      "latest_drop_date": "2026-08-19",
+      "campaign_count": 4,
+      "latest_drop_date": "2026-10-19",
       "review_note": ""
     },
     {
@@ -2861,8 +2837,8 @@
       "postal_city": "Milwaukee",
       "latitude": 43.1624,
       "longitude": -87.9898,
-      "campaign_count": 4,
-      "latest_drop_date": "2026-08-24",
+      "campaign_count": 5,
+      "latest_drop_date": "2026-10-14",
       "review_note": ""
     },
     {
@@ -3113,8 +3089,8 @@
       "postal_city": "Sycamore",
       "latitude": 41.9911,
       "longitude": -88.6928,
-      "campaign_count": 1,
-      "latest_drop_date": "2026-07-13",
+      "campaign_count": 2,
+      "latest_drop_date": "2026-10-12",
       "review_note": ""
     },
     {
@@ -3442,15 +3418,15 @@
       "review_note": ""
     },
     {
-      "dealer_name": "Lufkin Ford",
-      "dealer_key": "lufkin-ford",
-      "state": "TX",
-      "zip": "75901",
-      "postal_city": "Lufkin",
-      "latitude": 31.27,
-      "longitude": -94.6469,
+      "dealer_name": "Lou Sobh Honda",
+      "dealer_key": "lou-sobh-honda",
+      "state": "GA",
+      "zip": "30041",
+      "postal_city": "Cumming",
+      "latitude": 34.2037,
+      "longitude": -84.1031,
       "campaign_count": 1,
-      "latest_drop_date": "2026-04-14",
+      "latest_drop_date": "2026-10-13",
       "review_note": ""
     },
     {
@@ -3461,7 +3437,7 @@
       "postal_city": "Lugoff",
       "latitude": 34.2296,
       "longitude": -80.7147,
-      "campaign_count": 2,
+      "campaign_count": 1,
       "latest_drop_date": "2026-08-10",
       "review_note": ""
     },
@@ -3641,7 +3617,7 @@
       "postal_city": "Honea Path",
       "latitude": 34.4417,
       "longitude": -82.4255,
-      "campaign_count": 4,
+      "campaign_count": 3,
       "latest_drop_date": "2026-10-08",
       "review_note": ""
     },
@@ -3655,6 +3631,18 @@
       "longitude": -84.1544,
       "campaign_count": 1,
       "latest_drop_date": "2026-09-30",
+      "review_note": ""
+    },
+    {
+      "dealer_name": "McPeek's Chrysler Dodge Jeep Ram of Anaheim",
+      "dealer_key": "mcpeek-s-chrysler-dodge-jeep-ram-of-anaheim",
+      "state": "CA",
+      "zip": "92806",
+      "postal_city": "Anaheim",
+      "latitude": 33.8356,
+      "longitude": -117.8681,
+      "campaign_count": 1,
+      "latest_drop_date": "2026-10-12",
       "review_note": ""
     },
     {
@@ -3833,7 +3821,7 @@
       "postal_city": "San Antonio",
       "latitude": 29.5334,
       "longitude": -98.4975,
-      "campaign_count": 5,
+      "campaign_count": 4,
       "latest_drop_date": "2026-09-17",
       "review_note": ""
     },
@@ -3847,6 +3835,18 @@
       "longitude": -88.1009,
       "campaign_count": 1,
       "latest_drop_date": "2026-10-01",
+      "review_note": ""
+    },
+    {
+      "dealer_name": "Montgomery Ford Lincoln",
+      "dealer_key": "montgomery-ford-lincoln",
+      "state": "NC",
+      "zip": "27371",
+      "postal_city": "Troy",
+      "latitude": 35.3777,
+      "longitude": -79.9093,
+      "campaign_count": 1,
+      "latest_drop_date": "2026-10-13",
       "review_note": ""
     },
     {
@@ -3929,7 +3929,7 @@
       "postal_city": "Poway",
       "latitude": 32.9756,
       "longitude": -117.0402,
-      "campaign_count": 5,
+      "campaign_count": 4,
       "latest_drop_date": "2026-07-31",
       "review_note": ""
     },
@@ -4013,8 +4013,8 @@
       "postal_city": "Mount Ephraim",
       "latitude": 39.8827,
       "longitude": -75.0929,
-      "campaign_count": 4,
-      "latest_drop_date": "2026-09-04",
+      "campaign_count": 5,
+      "latest_drop_date": "2026-10-13",
       "review_note": ""
     },
     {
@@ -4277,8 +4277,8 @@
       "postal_city": "Van Nuys",
       "latitude": 34.1802,
       "longitude": -118.4324,
-      "campaign_count": 12,
-      "latest_drop_date": "2026-09-21",
+      "campaign_count": 13,
+      "latest_drop_date": "2026-10-16",
       "review_note": ""
     },
     {
@@ -4349,8 +4349,8 @@
       "postal_city": "Mission Hills",
       "latitude": 34.2619,
       "longitude": -118.4587,
-      "campaign_count": 12,
-      "latest_drop_date": "2026-09-21",
+      "campaign_count": 13,
+      "latest_drop_date": "2026-10-16",
       "review_note": ""
     },
     {
@@ -4378,18 +4378,6 @@
       "review_note": ""
     },
     {
-      "dealer_name": "Nissan of Valencia",
-      "dealer_key": "infiniti-of-valencia",
-      "state": "CA",
-      "zip": "91355",
-      "postal_city": "Valencia",
-      "latitude": 34.3985,
-      "longitude": -118.5535,
-      "campaign_count": 2,
-      "latest_drop_date": "2026-04-13",
-      "review_note": ""
-    },
-    {
       "dealer_name": "Nissan South Morrow",
       "dealer_key": "nissan-south-morrow",
       "state": "GA",
@@ -4399,18 +4387,6 @@
       "longitude": -84.3247,
       "campaign_count": 3,
       "latest_drop_date": "2026-08-17",
-      "review_note": ""
-    },
-    {
-      "dealer_name": "Norm Reeves Hyundai Irving",
-      "dealer_key": "norm-reeves-hyundai-irving",
-      "state": "TX",
-      "zip": "75062",
-      "postal_city": "Irving",
-      "latitude": 32.8479,
-      "longitude": -96.974,
-      "campaign_count": 1,
-      "latest_drop_date": "2026-04-15",
       "review_note": ""
     },
     {
@@ -4517,7 +4493,7 @@
       "postal_city": "Bossier City",
       "latitude": 32.5449,
       "longitude": -93.7038,
-      "campaign_count": 6,
+      "campaign_count": 5,
       "latest_drop_date": "2026-09-17",
       "review_note": ""
     },
@@ -4541,7 +4517,7 @@
       "postal_city": "Shreveport",
       "latitude": 32.4589,
       "longitude": -93.7143,
-      "campaign_count": 5,
+      "campaign_count": 4,
       "latest_drop_date": "2026-09-17",
       "review_note": ""
     },
@@ -4685,8 +4661,8 @@
       "postal_city": "Nampa",
       "latitude": 43.5937,
       "longitude": -116.536,
-      "campaign_count": 3,
-      "latest_drop_date": "2026-08-24",
+      "campaign_count": 4,
+      "latest_drop_date": "2026-10-19",
       "review_note": ""
     },
     {
@@ -4798,42 +4774,6 @@
       "review_note": ""
     },
     {
-      "dealer_name": "Premier Hyundai of Harvey",
-      "dealer_key": "premier-hyundai-of-harvey",
-      "state": "LA",
-      "zip": "70058",
-      "postal_city": "Harvey",
-      "latitude": 29.8725,
-      "longitude": -90.0673,
-      "campaign_count": 1,
-      "latest_drop_date": "2026-04-09",
-      "review_note": ""
-    },
-    {
-      "dealer_name": "Premier Kia of Kenner",
-      "dealer_key": "premier-kia-of-kenner",
-      "state": "LA",
-      "zip": "70062",
-      "postal_city": "Kenner",
-      "latitude": 29.9912,
-      "longitude": -90.2479,
-      "campaign_count": 1,
-      "latest_drop_date": "2026-04-16",
-      "review_note": ""
-    },
-    {
-      "dealer_name": "Premier Nissan Of Harvey",
-      "dealer_key": "premier-nissan-of-harvey",
-      "state": "LA",
-      "zip": "70058",
-      "postal_city": "Harvey",
-      "latitude": 29.8725,
-      "longitude": -90.0673,
-      "campaign_count": 1,
-      "latest_drop_date": "2026-04-17",
-      "review_note": ""
-    },
-    {
       "dealer_name": "Premier Nissan of Metairie",
       "dealer_key": "premier-nissan-of-metairie",
       "state": "LA",
@@ -4841,7 +4781,7 @@
       "postal_city": "Metairie",
       "latitude": 29.9975,
       "longitude": -90.2146,
-      "campaign_count": 2,
+      "campaign_count": 1,
       "latest_drop_date": "2026-08-13",
       "review_note": ""
     },
@@ -4949,7 +4889,7 @@
       "postal_city": "Avon",
       "latitude": 39.7629,
       "longitude": -86.3996,
-      "campaign_count": 3,
+      "campaign_count": 2,
       "latest_drop_date": "2026-08-10",
       "review_note": ""
     },
@@ -4990,18 +4930,6 @@
       "review_note": ""
     },
     {
-      "dealer_name": "Ray Skillman Mazda West",
-      "dealer_key": "ray-skillman-mazda-west",
-      "state": "IN",
-      "zip": "46254",
-      "postal_city": "Indianapolis",
-      "latitude": 39.849,
-      "longitude": -86.272,
-      "campaign_count": 1,
-      "latest_drop_date": "2026-04-13",
-      "review_note": ""
-    },
-    {
       "dealer_name": "Ray Skillman Northeast Mazda",
       "dealer_key": "ray-skillman-norheast-mazda",
       "state": "IN",
@@ -5026,15 +4954,15 @@
       "review_note": ""
     },
     {
-      "dealer_name": "Ray Skillman Westside Mitsubishi",
-      "dealer_key": "ray-skillman-westside-mitsubishi",
-      "state": "IN",
-      "zip": "46254",
-      "postal_city": "Indianapolis",
-      "latitude": 39.849,
-      "longitude": -86.272,
+      "dealer_name": "Ray's Ford Chrysler Dodge Jeep Ram",
+      "dealer_key": "ray-s-ford-chrysler-dodge-jeep-ram",
+      "state": "KY",
+      "zip": "40108",
+      "postal_city": "Brandenburg",
+      "latitude": 37.9662,
+      "longitude": -86.1084,
       "campaign_count": 1,
-      "latest_drop_date": "2026-04-13",
+      "latest_drop_date": "2026-10-19",
       "review_note": ""
     },
     {
@@ -5117,8 +5045,8 @@
       "postal_city": "Renton",
       "latitude": 47.4714,
       "longitude": -122.2203,
-      "campaign_count": 4,
-      "latest_drop_date": "2026-08-28",
+      "campaign_count": 5,
+      "latest_drop_date": "2026-10-12",
       "review_note": ""
     },
     {
@@ -5170,18 +5098,6 @@
       "review_note": ""
     },
     {
-      "dealer_name": "Robert Loehr Chrysler Dodge Jeep Ram",
-      "dealer_key": "robert-loehr-chrysler-dodge-jeep-ram",
-      "state": "GA",
-      "zip": "30121",
-      "postal_city": "Cartersville",
-      "latitude": 34.2079,
-      "longitude": -84.7673,
-      "campaign_count": 1,
-      "latest_drop_date": "2026-04-10",
-      "review_note": ""
-    },
-    {
       "dealer_name": "Rock City Chrysler Jeep Dodge Ram",
       "dealer_key": "rock-city-chrysler-jeep-dodge",
       "state": "NY",
@@ -5201,7 +5117,7 @@
       "postal_city": "Rock Hill",
       "latitude": 34.9151,
       "longitude": -81.0129,
-      "campaign_count": 2,
+      "campaign_count": 1,
       "latest_drop_date": "2026-07-30",
       "review_note": ""
     },
@@ -5225,7 +5141,7 @@
       "postal_city": "Winchester",
       "latitude": 37.9872,
       "longitude": -84.1789,
-      "campaign_count": 3,
+      "campaign_count": 2,
       "latest_drop_date": "2026-09-21",
       "review_note": ""
     },
@@ -5374,6 +5290,18 @@
       "review_note": ""
     },
     {
+      "dealer_name": "Safford Chrysler Dodge Jeep Ram of Warrenton",
+      "dealer_key": "safford-chrysler-dodge-jeep-ram-of-warrenton",
+      "state": "VA",
+      "zip": "20187",
+      "postal_city": "Warrenton",
+      "latitude": 38.7153,
+      "longitude": -77.7417,
+      "campaign_count": 1,
+      "latest_drop_date": "2026-10-13",
+      "review_note": ""
+    },
+    {
       "dealer_name": "Safford Chrysler Dodge Jeep Ram of Winchester",
       "dealer_key": "safford-chrysler-dodge-jeep-ram-of-winchester",
       "state": "VA",
@@ -5465,7 +5393,7 @@
       "postal_city": "San Leandro",
       "latitude": 37.7205,
       "longitude": -122.1587,
-      "campaign_count": 6,
+      "campaign_count": 5,
       "latest_drop_date": "2026-09-22",
       "review_note": ""
     },
@@ -5477,7 +5405,7 @@
       "postal_city": "Glendale",
       "latitude": 33.5311,
       "longitude": -112.1767,
-      "campaign_count": 6,
+      "campaign_count": 5,
       "latest_drop_date": "2026-10-01",
       "review_note": ""
     },
@@ -5530,6 +5458,18 @@
       "review_note": ""
     },
     {
+      "dealer_name": "Santee Automotive Group (Ford & CDJR)",
+      "dealer_key": "santee-automotive-group-ford-cdjr",
+      "state": "SC",
+      "zip": "29102",
+      "postal_city": "Manning",
+      "latitude": 33.6184,
+      "longitude": -80.2116,
+      "campaign_count": 1,
+      "latest_drop_date": "2026-10-19",
+      "review_note": ""
+    },
+    {
       "dealer_name": "Savage 61 Chrysler Dodge Jeep Ram",
       "dealer_key": "savage-61-chrysler-dodge-jeep-ram",
       "state": "PA",
@@ -5563,18 +5503,6 @@
       "longitude": -105.0109,
       "campaign_count": 1,
       "latest_drop_date": "2026-08-03",
-      "review_note": ""
-    },
-    {
-      "dealer_name": "Seattle Jeep & Seattle Chrysler Dodge Ram",
-      "dealer_key": "seattle-jeep-seattle-chrysler-dodge-ram",
-      "state": "WA",
-      "zip": "98133",
-      "postal_city": "Seattle",
-      "latitude": 47.7377,
-      "longitude": -122.3431,
-      "campaign_count": 1,
-      "latest_drop_date": "2026-04-10",
       "review_note": ""
     },
     {
@@ -5705,8 +5633,8 @@
       "postal_city": "Matteson",
       "latitude": 41.5102,
       "longitude": -87.7406,
-      "campaign_count": 1,
-      "latest_drop_date": "2026-08-13",
+      "campaign_count": 2,
+      "latest_drop_date": "2026-10-12",
       "review_note": ""
     },
     {
@@ -5878,6 +5806,18 @@
       "review_note": ""
     },
     {
+      "dealer_name": "Sumter Chrysler Dodge Jeep Ram",
+      "dealer_key": "sumter-chrysler-dodge-jeep-ram",
+      "state": "SC",
+      "zip": "29150",
+      "postal_city": "Sumter",
+      "latitude": 33.9137,
+      "longitude": -80.3542,
+      "campaign_count": 1,
+      "latest_drop_date": "2026-10-19",
+      "review_note": ""
+    },
+    {
       "dealer_name": "Sunny Mitsubishi",
       "dealer_key": "sunny-mitsubishi",
       "state": "FL",
@@ -5899,18 +5839,6 @@
       "longitude": -86.6286,
       "campaign_count": 1,
       "latest_drop_date": "2026-07-29",
-      "review_note": ""
-    },
-    {
-      "dealer_name": "Suntrup Buick GMC",
-      "dealer_key": "suntrup-buick-gmc",
-      "state": "MO",
-      "zip": "63376",
-      "postal_city": "Saint Peters",
-      "latitude": 38.7802,
-      "longitude": -90.6228,
-      "campaign_count": 1,
-      "latest_drop_date": "2026-04-15",
       "review_note": ""
     },
     {
@@ -6082,6 +6010,18 @@
       "review_note": ""
     },
     {
+      "dealer_name": "Toyota Del Rio",
+      "dealer_key": "toyota-del-rio",
+      "state": "TX",
+      "zip": "78840",
+      "postal_city": "Del Rio",
+      "latitude": 29.4102,
+      "longitude": -100.8932,
+      "campaign_count": 1,
+      "latest_drop_date": "2026-10-13",
+      "review_note": ""
+    },
+    {
       "dealer_name": "Toyota of Gladstone",
       "dealer_key": "toyota-of-gladstone",
       "state": "OR",
@@ -6089,7 +6029,7 @@
       "postal_city": "Gladstone",
       "latitude": 45.3899,
       "longitude": -122.5902,
-      "campaign_count": 11,
+      "campaign_count": 9,
       "latest_drop_date": "2026-10-06",
       "review_note": ""
     },
@@ -6154,6 +6094,18 @@
       "review_note": ""
     },
     {
+      "dealer_name": "Tri-County Chevrolet",
+      "dealer_key": "tri-county-chevrolet",
+      "state": "GA",
+      "zip": "30662",
+      "postal_city": "Royston",
+      "latitude": 34.2778,
+      "longitude": -83.1406,
+      "campaign_count": 1,
+      "latest_drop_date": "2026-10-15",
+      "review_note": ""
+    },
+    {
       "dealer_name": "Turlock Chrysler Dodge Jeep Ram",
       "dealer_key": "turlock-chrysler-dodge-jeep-ram",
       "state": "CA",
@@ -6173,8 +6125,8 @@
       "postal_city": "Sicklerville",
       "latitude": 39.7354,
       "longitude": -74.9864,
-      "campaign_count": 2,
-      "latest_drop_date": "2026-08-05",
+      "campaign_count": 3,
+      "latest_drop_date": "2026-10-13",
       "review_note": ""
     },
     {
@@ -6185,8 +6137,8 @@
       "postal_city": "Monroe",
       "latitude": 35.0178,
       "longitude": -80.5372,
-      "campaign_count": 1,
-      "latest_drop_date": "2026-05-29",
+      "campaign_count": 2,
+      "latest_drop_date": "2026-10-14",
       "review_note": ""
     },
     {
