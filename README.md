@@ -1,4 +1,4 @@
-# Lendward dealer map
+# Dealer map
 
 A searchable US dealer map built with Streamlit and Folium. Search a city and
 state or ZIP, then pan and zoom to see nearby dealer entries. Click numbered

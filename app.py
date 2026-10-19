@@ -52,12 +52,12 @@ metadata, dealers = snapshot["metadata"], snapshot["dealers"]
 zip_groups, cities = read_geography(DATA_PATH.stat().st_mtime_ns)
 
 with st.sidebar:
-    st.markdown("### Lendward apps")
-    st.page_link("https://lendward-campaigns.streamlit.app/", label="Production dashboard", icon="📬")
+    st.markdown("### Team apps")
+    st.page_link("https://campaign-status.streamlit.app/", label="Production dashboard", icon="📬")
     st.markdown("**Dealer map** · Current app")
     st.page_link("https://zip-lookup-tool-jsnqhe9l7kdapnb6s3jmy9.streamlit.app/", label="ZIP lookup", icon="📍")
     st.divider()
-    st.markdown('<div class="eyebrow">LENDWARD</div>', unsafe_allow_html=True)
+    st.markdown('<div class="eyebrow">DEALER TOOLS</div>', unsafe_allow_html=True)
     st.header("Find an area")
     with st.form("place_search"):
         query = st.text_input("City and state, or ZIP", placeholder="San Diego, CA")
