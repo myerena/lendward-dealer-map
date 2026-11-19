@@ -4,9 +4,9 @@
     "first_drop_date": "2026-05-21",
     "last_drop_date": "2026-11-19",
     "campaign_count": 1187,
-    "store_count": 556,
-    "mapped_count": 556,
-    "review_count": 3
+    "store_count": 554,
+    "mapped_count": 554,
+    "review_count": 0
   },
   "dealers": [
     {
@@ -6646,40 +6646,16 @@
       "review_note": ""
     },
     {
-      "dealer_name": "Zumbrota CDJR",
+      "dealer_name": "Zumbrota Ford/CDJR/Chevy",
       "dealer_key": "zumbrota-ford",
       "state": "MN",
       "zip": "55992",
       "postal_city": "Zumbrota",
       "latitude": 44.3032,
       "longitude": -92.6719,
-      "campaign_count": 1,
+      "campaign_count": 3,
       "latest_drop_date": "2026-11-12",
-      "review_note": "Multiple names or locations share this dealer key; kept separate pending review"
-    },
-    {
-      "dealer_name": "Zumbrota Chevy",
-      "dealer_key": "zumbrota-ford",
-      "state": "MN",
-      "zip": "55992",
-      "postal_city": "Zumbrota",
-      "latitude": 44.3032,
-      "longitude": -92.6719,
-      "campaign_count": 1,
-      "latest_drop_date": "2026-11-12",
-      "review_note": "Multiple names or locations share this dealer key; kept separate pending review"
-    },
-    {
-      "dealer_name": "Zumbrota Ford",
-      "dealer_key": "zumbrota-ford",
-      "state": "MN",
-      "zip": "55992",
-      "postal_city": "Zumbrota",
-      "latitude": 44.3032,
-      "longitude": -92.6719,
-      "campaign_count": 1,
-      "latest_drop_date": "2026-11-12",
-      "review_note": "Multiple names or locations share this dealer key; kept separate pending review"
+      "review_note": ""
     }
   ]
 }
